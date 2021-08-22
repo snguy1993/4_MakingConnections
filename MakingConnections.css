@@ -1,0 +1,201 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* menu */
+.nbar, .options, .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:orange;
+    margin-bottom: 10px;
+}
+.options, .list, .btn{
+    margin:5px;
+}
+.options{
+    width: 700px;
+    align-items: baseline;
+    justify-content: end;
+}
+.btn{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: white;
+}
+/* background */
+
+.background{
+    display: flex;
+    justify-content: center;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.l-display, .r-display{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* boxes */
+.lbox2, .rbox1, .rbox2{
+    background: linear-gradient(grey 20%, white 20%);
+    background-color: white;
+    border: solid 1px grey;
+    margin: 10px;
+    background-size: 530px 250px;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+.lbox1{
+    background: linear-gradient(orange 20%, white 20%);
+    background-color: white;
+    border: solid 1px orange;
+    margin: 10px;
+    background-size: 530px 250px;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+.lbox1, .rbox2{
+    position:relative;
+}
+.lbox1{
+    width: 500px;
+    height: 500px;
+}
+.lbox2{
+    width: 500px;
+    height: 200px;
+
+}
+.rbox1{
+    width: 200px;
+    height: 290px;
+}
+.rbox2 {
+    width: 200px;
+    height: 410px;
+}
+/* lbox */
+
+.user{
+    height: 70px;
+    width: 70px;
+    left: 35px;
+}
+.people, .request, .accept, .close, .request2, .accept2, .close2{
+    height:25px;
+}
+.ldisplay1, .ldisplay1sub2, .ldisplay2{
+    left: 30px;
+}
+.ldisplay1{
+    top:15px;
+}
+.ldisplay2{
+    top:35px;
+    line-height: 25px;
+}
+.text {
+    left: 25px;
+    width: 70px;
+    height: 200px;
+    top:15px;
+}
+.pic,.pic2{
+    width:10px;
+}
+.hc, .links{
+    left:15px;
+    color: #1a2f8b;
+    text-decoration-line: underline;
+}
+.ldisplay1sub{
+    align-items: center;
+    display: flex;
+    top:5px;
+}
+.ldisplay1sub2{
+    align-items:center;
+    display: flex;
+}
+.ldisplay1sub2{
+    position:absolute;
+    bottom:20px;
+}
+.dates{
+    color:rgb(190, 190, 190);
+}
+.user, #name1, .lbox1, .ldisplay1, .ldisplay1sub, .text, .hc, .links, .tworequests, .rbox2name, .connections, .requests, .ldisplay2, .contacts, .contacts4, .contacts5, .rdisplay1sub, .vm{
+    position:relative;
+}
+.ldisplay1sub2, .vm{
+    position:absolute;
+    bottom:20px;
+}
+    /* rbox */
+.tworequests, .rbox2name{
+    display: flex;
+    align-items: center;
+    bottom: 5px;
+}
+    .two, .plus{
+    background-color: #ffa500;
+    padding: 5px;
+    border-radius: 100px;
+    height: 20px;
+    border: 1px solid white;
+    text-align: center;
+}
+.two{
+    width: 20px;
+}
+.connections, .requests{
+    position: absolute;
+    right: 0px;
+}
+.rdisplay1{
+    top: 15px;
+    position: relative;
+}
+.rdisplay1sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height:25px;
+}
+.rdisplay1sub2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contacts, .contacts4, .contacts5{
+    align-self:center;
+}
+.accounts{
+    display:flex;
+    align-items: center;
+}
+.contacts, .contacts4, .contacts5{
+    left: 10px;
+}
+.hr{
+    width: 200px;
+    bottom: 55px;
+    position: absolute;
+}
+.rbox2, .lbox1{
+    display: flex;
+    flex-direction: column;
+}
+/* color */
+.nbar, .options, .btn, .two, .plus, .connections, .edu, .requests{
+    color:white;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="MakingConnections.css">
+</head>
+<body>
+    <!-- nbar -->
+    <div class="nbar">
+        <div class="options">
+            <div class="list"><h1>Profile</h1></div>
+            <div class="list">Home</div>
+            <div class="list">My Profile</div>
+            <div class="list">Find Connections</div>
+        </div>
+        <div>
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>
+    <div class="background">
+        <div class="display">
+            <div class="l-display">
+            <!-- l-box-1 -->
+                <div class="lbox1">
+                    <img class="user" src="user-circle.png" alt="user circle">
+                    <div class="ldisplay1">
+                        <h1 id="name1">Stephen N</h1>
+                        <div class="ldisplay1sub">
+                            <img class="pic" src="map-marker.png" alt="map marker">
+                            <div class="hc">HTML/CSS</div>
+                        </div>
+                        
+                        <div class="text">user card description</div>
+                    </div>
+                    <div class="ldisplay1sub2">
+                            <img class="pic2" src="gear.png" alt="gear" onclick="changeName()">
+                            <a class="links" onclick="changeName()">Configuration</a>
+                    </div>
+                </div>
+                <div class="lbox2">
+                    <div class="edu">Education</div>
+                    <div class ="ldisplay2">
+                        <h2>Coding Dojo</h2>
+                        <div class="dates">August 2021 - current</div>
+                        <div>Currently learning</div>
+                    </div>
+                </div>
+            </div>
+            <div class="r-display">
+                <div class="rbox1">
+                    
+                    <div class="tworequests">
+                        <div class="two">2</div>
+                        <div class="requests">Connection Requests</div>
+                    </div>
+                    <div class="rdisplay1">
+                        <div class="rdisplay1sub">
+                            <div class="accounts">
+                                <img class="request" src="user-circle.png" alt="user circle">
+                                <p class="contacts5">Contact 5</p>
+                            </div>
+                            <div class="aoc">
+                                <img class="accept" src="accept-circle.png" alt="accept circle" onclick="off1()">
+                                <img class="close" src="close-circle.png" alt="close circle" onclick="off2()">
+                            </div>
+                        </div>
+                        <div class="rdisplay1sub">
+                            <div class="accounts">
+                                <img class="request2" src="user-circle.png" alt="user circle">
+                                <p class="contacts4">Contact 4</p>
+                            </div>
+                            <div class="aoc">
+                                <img class="accept2" src="accept-circle.png" alt="accept circle" onclick="off3()">
+                                <img class="close2" src="close-circle.png" alt="close circle" onclick="off4()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rbox2">
+                    <div class="rbox2name">
+                        <div class="plus">100+</div>
+                        <div class="connections">Connections</div>
+                    </div>
+                    <div class="rdisplay1">
+                        <div class="rdisplay1sub2">
+                            <img class="people" src="user-circle.png" alt="user circle">
+                            <p class="contacts">Contact 3</p>
+                        </div>
+                        <div class="rdisplay1sub2">
+                            <img class="people" src="user-circle.png" alt="user circle">
+                            <p class="contacts">Contact 2</p>
+                        </div>
+                        <div class="rdisplay1sub2">
+                            <img class="people" src="user-circle.png" alt="user circle">
+                            <p class="contacts">Contact 1</p>
+                        </div>
+                        <div class="rdisplay1sub2">
+                            <img class="people" src="user-circle.png" alt="user circle">
+                            <p class="contacts">Contact</p>
+                        </div>
+                    </div>
+                    <div class="hr"><hr></div>
+                    <a class="vm" href="">View More</a>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="MakingConnections.js"></script>
+</body>
+</html>
